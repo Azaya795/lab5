@@ -5,7 +5,7 @@
   
   body {
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'lato';
   }
   header{
     background-color: #1B1B6C;
@@ -21,7 +21,8 @@
     padding: 30px;
   }
   h2{
-    border-style: outset;
+    border-bottom: 1px solid #9090A5;
+    font-size: 30px;
   }
   
   .grid-container {
@@ -55,6 +56,7 @@
     margin-left: 20px;
     margin-top: 40px;
     height:auto; 
+    font-size: 15px;
   }
   
  
@@ -90,7 +92,6 @@
 .secondline{
     padding: 10px;
     height: 60px;
-    text-align: center;
     color: white;
 }
   #send{
@@ -107,6 +108,7 @@
     background-color: #352ba5;
     text-align: center;
     height: auto;
+    font-size: small;
   }
   a:link{color: aliceblue;}
   a:visited{color:white;}
@@ -135,10 +137,13 @@
     border: 2px solid #2AD392;
     width: 49%;
   }
+  i{
+    font-style: italic;
+  }
   
   
   @media (max-width: 600px) {
-    .grid-container  {
+    .grid-container  { 
       grid-template-areas: 
         'header header header header header header header header header header header header'
         'left left left left left left left left left left left left' 
